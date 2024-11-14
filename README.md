@@ -19,6 +19,7 @@ step-4: Open pgadmin and run this given sql query one-by-one.
    
    Query-2:
         -- Users Table
+        
         CREATE TABLE users (
             id SERIAL PRIMARY KEY,
             username VARCHAR(50) UNIQUE NOT NULL,
@@ -28,6 +29,7 @@ step-4: Open pgadmin and run this given sql query one-by-one.
 
   Query-3:
         -- Software Table
+        
         CREATE TABLE software (
             id SERIAL PRIMARY KEY,
             name VARCHAR(100) UNIQUE NOT NULL,
@@ -37,6 +39,7 @@ step-4: Open pgadmin and run this given sql query one-by-one.
 
   Query-4:
         -- Requests Table
+        
         CREATE TABLE requests (
             id SERIAL PRIMARY KEY,
             user_id INT REFERENCES users(id),
@@ -47,16 +50,19 @@ step-4: Open pgadmin and run this given sql query one-by-one.
         );
 
   Query-5:
+  
         INSERT INTO users (username, password, role) VALUES 
         ('Avanish', 'Avanish@123', 'Employee'),
         ('Akash', 'Akash@123', 'Admin'),
         ('Rahul', 'Rahul@123', 'Manager');
 
   Query-6:
+  
         INSERT INTO software (name, description, access_levels) VALUES 
         ('Java', 'description', 'Write');
 
   Query-7:
+  
         INSERT INTO requests (user_id, software_id, access_type, reason, status) VALUES 
         (2, 1, 'Read', 'Need access for project tasks', 'Pending');
 
