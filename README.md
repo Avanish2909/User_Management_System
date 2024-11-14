@@ -3,7 +3,9 @@ Complete the assignment task of user management system using servlet, jsp and po
 
 
 Download: 
+
   1). Eclipse Ide
+  
   2). Postgres Database and pgadmin4
 
 Step-2: Download this project zip file in your system and extract all file.
@@ -59,4 +61,5 @@ step-4: Open pgadmin and run this given sql query one-by-one.
         (2, 1, 'Read', 'Need access for project tasks', 'Pending');
 
 step-5: Edit the username, password of given code... according to your postgresql database.
+
 step-6: Run project....
