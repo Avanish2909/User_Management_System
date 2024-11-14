@@ -7,8 +7,11 @@ Download:
   2). Postgres Database and pgadmin4
 
 Step-2: Download this project zip file in your system and extract all file.
+
 Step-3: Open extract file in your eclipse Ide.
+
 step-4: Open pgadmin and run this given sql query one-by-one.
+
    Query-1:
         CREATE DATABASE user_management_system_db.
    
