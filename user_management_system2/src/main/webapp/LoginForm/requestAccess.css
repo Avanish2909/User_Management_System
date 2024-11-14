@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    background-image: url("image/federico-respini-sYffw0LNr7s-unsplash.jpg.crdownload"); /* Adjust the path if needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 3% auto 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.sign-up-form h1 {
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+
+.sign-up-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-box, input[type="text"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0 0px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, select:focus, textarea:focus {
+    border-color: #1c8adb;
+    box-shadow: 0 0 5px rgba(28, 138, 219, 0.5);
+}
+
+button, .signup-btn, input[type="submit"] {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 5px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #1c8adb;
+    transition: background-color 0.3s;
+}
+
+button:hover, .signup-btn:hover, input[type="submit"]:hover {
+    background-color: #166dad;
+}
+
+a {
+    text-decoration: none;
+    color: #1c8adb;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+img {
+    width: 70px;
+    margin-top: -50px;
+}
+
+
